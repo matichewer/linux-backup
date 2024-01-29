@@ -1,0 +1,9 @@
+04_backups
+node_modules
+venv
+snap
+.cache
+.docker
+.local/share
+.vscode
+.npm
