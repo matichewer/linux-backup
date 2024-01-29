@@ -7,3 +7,5 @@ snap
 .local/share
 .vscode
 .npm
+linux-backup
+
