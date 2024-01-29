@@ -1,4 +1,4 @@
-/home
+/home/wecher
 /etc
 /var/www
 /var/spool/cron/crontabs/wecher
