@@ -8,4 +8,5 @@ snap
 .vscode
 .npm
 linux-backup
+course_videos
 
