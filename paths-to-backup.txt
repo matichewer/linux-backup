@@ -1,5 +1,6 @@
-/var/www
-/var/spool/cron/crontabs/wecher
-/home/wecher
-/etc
-
+#/var/www
+#/var/spool/cron/crontabs/<USER>
+/home/wecher/Scripts
+#/etc
+/home/<USER>/Documents
+/home/<USER>/Desktop
