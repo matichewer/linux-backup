@@ -1,2 +1,4 @@
 backups/
 *.log
+paths-to-backup.txt
+paths-to-ignore.txt
