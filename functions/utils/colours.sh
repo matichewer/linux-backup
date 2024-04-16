@@ -1,0 +1,13 @@
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;93m'
+
+BOLD='\e[1m'
+NC='\033[0m' # No Color
+
+GREEN_CHECK='\033[32m\u2713\033[0m'
+RED_X='\033[31m\u2717\033[0m'
+
+ERROR="${RED_X}${RED}[ERROR]${NC}"
+INFO="${YELLOW}[INFO]${NC}"
+OK="${GREEN_CHECK}${GREEN}[OK]${NC}"
