@@ -24,8 +24,8 @@ check_backup_dir "$backup_dir"
 compress "$paths_to_backup" "$paths_to_ignore" "$backup_file" "$BACKUP_PASSWORD"
 
 # Post compress
-change_ownership $backup_dir $backup_file
-delete_old_backups_from_local $backup_dir
+change_ownership "$backup_dir" "$backup_file"
+delete_old_backups_from_local "$backup_dir"
 
 # Cloud
 upload_to_cloud "$backup_file" "$RCLONE_REMOTE_NAME" "$RCLONE_REMOTE_BACKUP_FOLDER"
