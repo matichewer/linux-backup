@@ -8,4 +8,5 @@ change_ownership() {
     local user=$(logname)
     chown "$user:$user" "$backup_dir"
     chown "$user:$user" "$backup_file"
+    chown "$user:$user" log_file.log
 }
