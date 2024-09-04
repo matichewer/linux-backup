@@ -4,7 +4,7 @@ This project is an automated backup system designed to securely compress, encryp
 
 ## Features
 
-- Customizable backup paths and ignore list
+- Customizable backup paths and to-ignore paths
 - Secure compression with 7-Zip and password protection
 - Local and cloud storage of backups
 - Automatic deletion of old backups (both local and cloud)
