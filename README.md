@@ -53,6 +53,16 @@ Edit `functions/config.sh` to set:
 - `RCLONE_REMOTE_BACKUP_FOLDER`: Remote folder for backups
 - `RCLONE_MIN_AGE_TO_DELETE`: Minimum age of backups to delete from cloud
 
-## License
 
-This project is licensed under [Your License Here]
+## rclone version:
+```bash
+❯ rclone --version
+rclone v1.68.2
+- os/version: raspbian 12.8 (64 bit)
+- os/kernel: 6.6.62+rpt-rpi-v8 (aarch64)
+- os/type: linux
+- os/arch: arm64 (ARMv8 compatible)
+- go/version: go1.23.3
+- go/linking: static
+- go/tags: none
+```
